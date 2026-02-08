@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Valentine’s ❤️</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Landing -->
+  <section class="hero">
+    <h1>Happy Valentine’s Day ❤️</h1>
+    <p>This little world is just for you</p>
+    <button onclick="scrollToSection('gallery')">Tap me 💕</button>
+  </section>
+
+  <section class="landing">
+  <h1>Hey You ❤️</h1>
+  <p>I made something special for you</p>
+  <button onclick="goNext()">Tap to continue 💕</button>
+</section>
+
+
+  <!-- Gallery -->
+  <section id="gallery" class="section">
+    <h2>Our Memories 📸</h2>
+    <div class="gallery">
+      <img src="img1.jpeg" alt="">
+      <img src="img2.jpeg" alt="">
+      <img src="img3.jpeg" alt="">
+      <img src="img4.jpeg" alt="">
+    </div>
+    <p class="note">Every moment with you is my favorite.</p>
+  </section>
+
+  <!-- Love Letter -->
+  <section class="section letter">
+    <h2>My Heart to You 💌</h2>
+    <p>
+      I don’t know how you do it, but you make everything feel lighter.  
+      Loving you feels natural, effortless, and right.  
+      Thank you for being you — and for being mine.
+    </p>
+  </section>
+
+  <!-- Reasons -->
+  <section class="section">
+    <h2>Why I Love You 💕</h2>
+    <div class="reasons">
+      <div>💖 Your smile</div>
+      <div>💖 Your kindness</div>
+      <div>💖 The way you understand me</div>
+      <div>💖 Just… you</div>
+    </div>
+  </section>
+
+  <!-- Proposal -->
+  <section class="final">
+    <h2>Will you be my Valentine? 🌹</h2>
+    <button onclick="showLove()">YES ❤️</button>
+    <h3 id="response"></h3>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
